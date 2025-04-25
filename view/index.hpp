@@ -1,26 +1,22 @@
-#include "src/api/http/appliction.hpp"
+#include "../src/api/request/appliction.hpp"
 #include <iostream>
 
 using namespace std;
 
 
 
-class Index printf: Applition
+class Index :
+private Appliction
 {
-private:
-    /* data */
-public:
-    Index(/* args */);
-    ~Index();
+    private:
+    public:
+    Index(){
+
+    };
+    void run ();
+
 };
 
-Index::Index(/* args */)
-{
+void Index::run(){
+    cout << "runing";
 }
-
-Index::~Index()
-{
-}
-
-
-

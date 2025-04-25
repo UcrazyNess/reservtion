@@ -1,24 +1,24 @@
-#include "../../models/diningholl.hpp"
+#include "../../models/dininghall.hpp"
 #include "../../models/meal.hpp"
 
 
 
 using namespace std;
 
-struct  Reserves
-{
+// struct  Reserves
+// {
 
 
-};
+// };
 
 
-class Reservtion{
+// class Reservtion{
     
-    Reservtion();
+//     Reservtion();
 
-};
+// };
 
-Reservtion::Reservtion()
-{
+// Reservtion::Reservtion()
+// {
 
-}
+// }
